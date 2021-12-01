@@ -1,0 +1,154 @@
+@media screen and (min-width:315px){
+    .modal1{
+        width: 99.9vw;
+        margin: 0 auto;
+        position:fixed;
+        top:0;
+        left:0;
+        bottom:0;
+        right: 0;
+        padding-top: 60%;
+        visibility: hidden;
+        opacity: 1;
+        background: linear-gradient(#141e30, #243b55);
+    }
+
+    .modal2{
+        width: 90vw;
+        height: 25vh;
+        margin: 0 auto;
+        position:fixed;
+        top:30%;
+        left:5%;
+        visibility: hidden;
+        opacity: 1;
+        background: linear-gradient(#bbbdc0, #fefeff);
+        border:1px solid black;
+        border-bottom:2px solid black;
+        -webkit-box-shadow: 0px 9px 23px -1px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 9px 23px -1px rgba(0,0,0,0.75);
+        box-shadow: 0px 9px 23px -1px rgba(0,0,0,0.75);
+
+    }
+    .modal-editar{
+        padding:1rem;
+        width: 99.8%;
+        background:white;
+        margin: 0 auto;
+        position:fixed;
+        top:5%;
+        visibility: hidden;
+        opacity: 1;
+        border-bottom:2px solid black;
+
+    }
+    .modal-editar form label{
+        background:white;
+    }
+    .control-modal2{
+        display:flex;
+        flex-direction: column;;
+    }
+    .control-modal2 h2{
+        margin-top: 6%;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .control-botones-modal{
+        display:flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top:5%;
+    }
+    .is-visible {
+        visibility: visible;
+        opacity: 1;
+    }
+     .control-modal1{
+        
+         display:flex;
+         justify-content: space-around;
+         justify-items: center;
+         padding:1rem;
+         margin-bottom: 5%;
+     } 
+    .control-modal1 h2{
+        color:white;
+    }
+    .control-modal1 button{
+        border:none;
+        padding:0;
+        height: 16.67%;
+        width:15%;
+        padding:0.5rem;
+        border:2px solid white;
+        background-color: rgb(252, 44, 44);
+        border-radius: 0.5rem;
+        margin-top:3%;
+        font-weight: bold;
+        font-size: 2rem;
+        
+    }
+    .form-modal{
+        width:90vw;
+        display:flex;
+        flex-direction: column;
+        margin:0 auto;
+    }
+    .form-modal label{
+        color:white;
+        font-size: 1.2rem;
+        
+    }
+    .form-modal input{
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 1.1rem;
+        padding:0.75rem;
+        border: none;
+        border-bottom: 1px solid #fff;
+        margin-bottom:3%;
+        outline: none;
+        background: transparent;
+        letter-spacing: 0.154rem;
+    }
+    .form-modal input[type="submit"]{
+        border:none;
+        border-bottom: 2px solid white;
+        background: transparent;
+        padding:1rem;
+        border-radius:2rem;
+        border:2px solid rgba(1, 4, 51, 0.918);
+        border-top:0.55rem solid rgba(1,4,51,0.918);
+        border-right: 0.4rem solid rgba(1, 4, 51, 0.918);
+        
+        
+    }
+
+} 
+
+@media screen and (min-width:800px){
+    .modal-editar{
+     
+        padding:1rem;
+        width: 50.8%;
+        background:white;
+        margin: 0 auto;
+        position:fixed;
+        top:2%;
+        left:25%;
+        opacity: 1;
+
+        border:2px solid black;
+
+    }
+    .modal2{
+        width:50%;
+        left:25%;
+    }
+    .control-modal2{
+        display:flex;
+        flex-direction: column;
+    }
+
+}

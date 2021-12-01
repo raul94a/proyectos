@@ -1,0 +1,406 @@
+/* BODY */
+html{
+   /* background: linear-gradient(#141e30, #27405c);*/
+   background: #141e30;
+
+}
+h1,h2,h3,p,label,a,i{
+    color:#e6f0e9;
+}
+input{
+    
+}
+input:focus{
+    outline:none;
+}
+.fas{
+    color:#e6f0e9;
+}
+/*arrow left*/
+.contenedor-volver h2{
+    color:#e6f0e9;
+}
+.contenedor-volver a i{
+    color: #e6f0e9;
+}
+.contenedor-volver a:hover i{
+    color:aqua;
+}
+/* INDEX */
+.encabezado-principal,
+#subtitulo-principal{
+    background:#141e30;
+}
+.loader div{
+    background:#e6f0e9;
+}
+.contenedor-productos a{
+    background: transparent;
+}
+form input[type="search"]{
+    border-radius: 10px;
+    text-align: center;
+}
+/*BOTON*/
+
+.btn1red{
+    background: rgb(241, 37, 30);
+    transition: none;
+}
+
+/*NAVEGACION*/
+.barra{
+    -webkit-box-shadow: 0px -8px 5px 0px rgba(55,106,122,1);
+    -moz-box-shadow: 0px -8px 5px 0px rgba(55,106,122,1);
+     box-shadow: 0px -8px 5px 0px rgba(55,106,122,1);
+}
+.barra li a,
+.barra li i,
+.barra li a i{
+    color:#e6f0e9;
+}
+.barra li:hover a,
+.barra li:hover i{
+    cursor:grab;
+    color:rgb(23,220,235);
+    font-size:1.01rem;
+    font-weight: bold;
+    transition: 0.2s ease-out;
+}
+/* HEADERS*/
+.outline-blue{
+    -webkit-box-shadow: 0px 8px 5px 0px rgba(55,106,122,1);
+    -moz-box-shadow: 0px 8px 5px 0px rgba(55,106,122,1);
+     box-shadow: 0px 8px 5px 0px rgba(55,106,122,1);
+}
+/* INDEX */
+button,
+input[type="submit"],
+.chat,
+.botonAzul
+{   
+    
+    color:white;
+    background:linear-gradient(rgb(57, 59, 204), rgb(52, 116, 158))
+}
+button:hover,
+input[type="submit"]:hover,
+.chat:hover,
+.botonAzul:hover{
+    
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    background:linear-gradient(rgb(171, 191, 224), rgb(2, 53, 129))
+}
+
+.card-producto p{
+    color:white;
+    text-align: center;
+}
+
+.contenedor-productos a{
+    border-bottom:2px solid black;
+    -webkit-box-shadow: 0px 9px 23px -1px rgba(250,251,252,0.15);
+    -moz-box-shadow: 0px 9px 23px -1px rgba(250,251,252,0.15);
+    box-shadow: 0px 9px 23px -1px rgba(250,251,252,0.15);
+    border: 1px solid #a5a5a5;
+}
+.contenedor-productos a:hover{
+    border-bottom:2px solid rgb(2, 31, 68);
+    -webkit-box-shadow: 5px 9px 23px -1px rgba(2, 31, 68,0.75);
+    -moz-box-shadow: 5px 9px 23px -1px rgba(2, 31, 68,0.75);
+    box-shadow: 5px 9px 23px -1px rgba(2, 31, 68,0.75);
+}
+@media screen and (min-width:280px){
+    .navegacion{
+        background: linear-gradient(90deg, #141e30, #27405c); 
+    }
+}
+@media screen and (min-width:800px){
+    .navegacion{
+         background: linear-gradient(#141e30, #27405c);
+    }
+}
+header div a i{
+    color:black;
+}
+/* SUBIR FORMS*/
+label,
+input[type="file"]{
+    color:#e6f0e9;
+}
+
+
+
+/*PERFIL HTML */
+
+@media screen and (max-width: 799px){
+    .perfil{
+        -webkit-box-shadow: 0px 8px 5px 0px rgba(55,106,122,1);
+        -moz-box-shadow: 0px 8px 5px 0px rgba(55,106,122,1);
+        box-shadow: 0px 8px 5px 0px rgba(55,106,122,1);
+    }
+}
+
+.estrellas{
+    margin-top:2%;
+}
+.estrellas i{
+    color:yellow;
+    padding:0.1rem;
+    -webkit-text-stroke: 1px white;
+ }
+
+.estrellas span{
+    color:#e6f0e9;
+}
+
+.control-catalogo h1,
+.control-tratos h1,
+.control-cuenta h1{
+    background: transparent;
+    text-decoration:underline;
+
+   /* background: linear-gradient(90deg, rgba(254,254,254,1) 2%, rgba(220,224,242,1) 47%, rgba(193,211,238,1) 81%, rgba(175,224,255,1) 99%);*/
+}
+
+.control-catalogo a,
+.control-tratos a,
+.control-cuenta a{
+    color:#e6f0e9;
+}
+.control-catalogo a:hover,
+.control-tratos a:hover,
+.control-cuenta a:hover{
+        color:rgb(23,220,235);
+        font-size:1.2rem;
+
+}
+.control-catalogo a:hover i,
+    .control-tratos a:hover i,
+    .control-cuenta a:hover i{
+           color:rgb(18,220,245);
+
+    }
+    .control-perfil a i{
+        color:#e6f0e9;
+    }
+.control-perfil a:hover i{
+        color:rgb(23,220,235);
+
+}
+.foto-perfil{
+    border:1px solid white;
+}
+
+/* CONVERSACION */
+.contenedor-regreso-foto a i{
+    color:white;
+}
+.contenedor-regreso-foto a i:hover{
+    color:mediumturquoise;
+}
+.control-conversaciones{
+    background:#0e1d2e;
+    border:1px solid white;
+    border-radius:6px;
+}
+.mensaje-ajeno{
+    border: 2px solid #3d434a;
+    border-radius: 0px 40px 40px 40px;
+    border-top:5px solid #3d434a;
+    border-left: 0.6rem solid #3d434a;
+    z-index:20;
+
+    -webkit-box-shadow: 2px 5px 36px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 5px 36px -6px rgba(0,0,0,0.75);
+    box-shadow: 2px 5px 36px -6px rgba(0,0,0,0.75);
+
+
+}
+.mensaje-propio{
+    border: 2px solid #325d8f;
+    border-radius: 40px 0px 40px 40px;
+    border-top:5px solid #325d8f;
+    border-right: 0.6rem solid #325d8f;
+    z-index:20;
+
+    -webkit-box-shadow: 2px 5px 36px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 5px 36px -6px rgba(0,0,0,0.75);
+    box-shadow: 2px 5px 36px -6px rgba(0,0,0,0.75);
+   
+}
+.mensaje-propio{
+   background: #325d8f;
+}
+.mensaje-ajeno{
+    background:#3d434a;
+}
+.hora{
+    color:#e6f0e9;
+}
+.enviar-mensajes{
+    background:#27405c;
+    border-radius:6px;
+}
+
+.enviar-mensajes input[type="text"]{
+    /*background: #D5F1F8;
+    background: -webkit-radial-gradient(right, #D5F1F8, #E2E0E0);
+    background: -moz-radial-gradient(right, #D5F1F8, #E2E0E0);
+    background: radial-gradient(to left, #D5F1F8, #E2E0E0);*/
+    background:#27405c;
+    border:1px solid #e6f0e9;
+    color:#e6f0e9;
+    font-size:1.1rem;
+    
+}
+.enviar-mensajes input::placeholder,
+input::placeholder{
+    color:#e6f0e9;
+    font-size:1.1rem;
+    letter-spacing:0.25rem;
+    margin-left:1%;
+}
+
+
+/* MIS DATOS */
+.control-header-datos-usuario{
+  border-bottom: 1px solid white;
+}
+.contenedor-estadisticas{
+    border-top:1px solid white;
+    margin-top:2%;
+}
+.contenedor-estadisticas i{
+    color:#e6f0e9;
+}
+.contenedor-menu-productos-opiniones{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white
+}
+.fa-chart-bar{
+    color:rgb(0, 37, 139);
+    font-weight: bold;
+}
+.control-header-datos-usuario a:hover i{
+     color:rgb(23,220,235);
+}
+.active-option{
+ color:rgb(23,220,235);
+ font-weight: bold;
+   text-transform: uppercase;
+   text-decoration:underline;
+}
+
+/* PRODUCTOS EN VENTA */
+
+.control-producto:hover,
+.contenedor-ventas:hover{
+    border-bottom:2px solid rgb(2, 31, 68);
+    /*-webkit-box-shadow: 5px 9px 23px -1px rgba(2, 31, 68,0.75);
+    -moz-box-shadow: 5px 9px 23px -1px rgba(2, 31, 68,0.75);
+    box-shadow: 5px 9px 23px -1px rgba(2, 31, 68,0.75);*/
+    -webkit-box-shadow: 0px 8px 5px 0px rgba(55,106,122,1);
+    -moz-box-shadow: 0px 8px 5px 0px rgba(55,106,122,1);
+    box-shadow: 0px 8px 5px 0px rgba(55,106,122,1);
+
+}
+
+/*valoraciones*/
+.card-valoracion:hover{
+    -webkit-box-shadow: 0px 8px 5px 0px rgba(55,106,122,1);
+    -moz-box-shadow: 0px 8px 5px 0px rgba(55,106,122,1);
+    box-shadow: 0px 8px 5px 0px rgba(55,106,122,1);
+}
+.border-red{
+    background:linear-gradient(red,white);
+}
+.red{
+    color:red;
+}
+.card-producto{
+    background:transparent;
+}
+
+/* BOTNOES*/
+.btn1,
+.btn2,
+.btn3-b,
+.btn4{
+	box-shadow:inset 0px 1px 0px 0px #7a8eb9;
+	background:linear-gradient(to bottom, #637aad 5%, #5972a7 100%);
+	background-color:#637aad;
+	border:1px solid #314179;
+	color:#ffffff;
+	
+}
+.btn3-b:hover {
+	background:linear-gradient(to bottom, #5972a7 5%, #637aad 100%);
+	background-color:#5972a7;
+}
+/* MODALES Y FORMULARIOS */
+.modal-editar,
+.modal2,
+.control-modal,
+#modal-editar-producto,
+.modal-editar form label,
+.form-subir-producto label,
+ input[type="text"],
+ input[type="password"],
+ input[type="number"]{
+    background:#141e30;
+    
+}
+.modal-editar{
+    border:1px solid white;
+}
+.modal2{
+ 
+    border:1px solid white;
+}
+
+.modal-editar form label{
+    margin-bottom:1%;
+    text-align:center;
+}
+.modal-editar form input{
+  border:1px solid white;
+  border-radius:8px;
+  padding:0.5rem;
+  color:white;
+}
+input,
+.form-subir-producto input{
+  border:1px solid white;
+  border-radius:8px;
+  padding:0.5rem;
+  color:white;
+  
+}
+input:focus,
+form-subir-producto input{
+    outline:none;
+    border:2px solid aqua;
+    font-size:1.1rem;
+}
+
+/*TEXTAREAS*/
+textarea{
+     background:#141e30;
+     color:white;
+     border:1px solid white;
+    
+}
+textarea:focus{
+    outline:none;
+    border:1px solid aqua;
+}
+
+.enviar-mensajes input[type="text"]::placeholder{
+    color:white;
+}
+
+.rojo{
+    color:red;
+}

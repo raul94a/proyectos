@@ -1,0 +1,316 @@
+
+
+@media screen and (min-width: 315px){
+
+
+    /* NAVEGACION  */
+    .navegacion{
+        /*MARGIN TEMPORAL*/
+        position:fixed;
+        bottom:0.01rem;
+        width: 100%;
+        z-index: 1;
+    }
+    .barra{
+        padding:1rem 0 0 0;
+        margin:0;
+        border-top:1px solid grey;
+        border-top: 	inset;
+    }
+    .barra li{
+        list-style:none;
+        height: 5vh;
+    }
+    .barra li p{
+        text-align: center;
+        
+    }
+    .barra li:hover a{
+        color:rgb(23, 220, 235);
+    }
+    .barra li a{
+        text-decoration: none;
+        color:white;
+        font-size:1.5rem;
+    }
+
+    /*LOGIN*/
+    h1, h2{
+        text-align: center;
+        color:white;
+    }
+    body{
+        background: linear-gradient(#141e30, #27405c);
+    }
+    .card{
+        position:relative;
+        width:98vw;
+        margin:0 auto;
+        height: 38vh;
+        margin-bottom:16%;
+    }
+   
+    .form-login{
+        position:absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 50%;
+        height: 65%;
+        margin:auto;
+        width:90%;
+        
+    }
+   
+    .contenedor-principal .pass-olvidada{
+        width:88.2vw;
+        margin-left: 6%;
+        border:none;
+        outline:none;
+        background:transparent;
+        color: #fff;
+        font-family: sans-serif;
+        padding:0.75rem;
+        border-radius:2rem;
+        border:2px solid rgba(1, 4, 51, 0.918);
+        border-top:0.55rem solid rgba(1,4,51,0.918);
+        border-right: 0.4rem solid rgba(1, 4, 51, 0.918);
+        transition:0.4s ease;
+        margin-bottom:65%;
+        z-index:8888;
+        
+    
+    }
+    .control-login{
+        display:flex;
+        flex-direction:column;
+
+    }
+
+    .control-login label{
+    font-size:1.4rem;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+        
+    
+    }
+
+    .form-login input{
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 1.1rem;
+        padding:0.75rem;
+        border: none;
+        border-bottom: 1px solid #fff;
+        margin-bottom:3%;
+        outline: none;
+        background: transparent;
+        letter-spacing: 0.154rem;
+    
+
+    }
+    .form-login input[type="text"]{
+        outline: none;
+        background: transparent;
+    }
+
+
+    .form-login input[type="submit"]{
+        border-radius:2rem;
+        border:2px solid rgba(1, 4, 51, 0.918);
+        border-top:0.55rem solid rgba(1,4,51,0.918);
+        border-right: 0.4rem solid rgba(1, 4, 51, 0.918);
+        transition: .5s ease-out;
+    
+    }
+
+    .fix-login{
+        margin-top:20%;
+    }
+    .fix-login button{
+    
+    }
+    .fix-registro{
+        margin-bottom:115%;
+    }
+    /** MODAL DE OLIVDO DE CONTRAEÑA **/
+    
+
+    .modal1{
+        width: 99.9vw;
+        margin: 0 auto;
+        position:fixed;
+        top:0;
+        left:0;
+        bottom:0;
+        right: 0;
+        /*padding-top: 60%;*/
+        visibility: hidden;
+        opacity: 1;
+        background: linear-gradient(#141e30, #243b55);
+    }
+    .is-visible {
+        visibility: visible;
+        opacity: 1;
+    }
+     .control-modal1{
+        
+         display:flex;
+         justify-content: space-around;
+         justify-items: center;
+         padding:1rem;
+         margin-bottom: 5%;
+     } 
+    .control-modal1 h2{
+        color:white;
+    }
+    .control-modal1 button{
+        border:none;
+        padding:0;
+        height: 16.67%;
+        width:15%;
+        padding:0.5rem;
+        border:2px solid white;
+        background-color: rgb(252, 44, 44);
+        border-radius: 0.5rem;
+        margin-top:3%;
+        font-weight: bold;
+        font-size: 2rem;
+        
+    }
+    .form-modal{
+        width:90vw;
+        display:flex;
+        flex-direction: column;
+        margin:0 auto;
+    }
+    .form-modal label{
+        color:white;
+        font-size: 1.2rem;
+        
+    }
+    .form-modal input{
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 1.1rem;
+        padding:0.75rem;
+        border: none;
+        border-bottom: 1px solid #fff;
+        margin-bottom:3%;
+        outline: none;
+        background: transparent;
+        letter-spacing: 0.154rem;
+    }
+    .form-modal input[type="submit"]{
+        border:none;
+        border-bottom: 2px solid white;
+        background: transparent;
+        padding:1rem;
+        border-radius:2rem;
+        border:2px solid rgba(1, 4, 51, 0.918);
+        border-top:0.55rem solid rgba(1,4,51,0.918);
+        border-right: 0.4rem solid rgba(1, 4, 51, 0.918);
+        
+        
+    }
+
+}
+
+
+@media screen and (min-width:410px){
+    .card{
+        position:relative;
+        width:98vw;
+        margin:0 auto;
+        height: 45vh;
+        margin-bottom:4%;
+    }
+    .fix-login{
+        margin-top:40%;
+    }
+    .fix-registro{
+        margin-bottom:115%;
+    }
+}
+
+@media screen and (min-width:800px){
+    h1{
+        margin:0 auto;
+    
+    
+    }
+    .contenedor-principal{
+        width:100%;
+     
+    }
+    .contenedor-registro{
+        width: 80%;
+        margin:0 auto;
+        
+
+    }
+    .card{
+        position:static;
+        margin:0 auto;
+        margin-bottom:8%;
+         height: 40vh;
+        
+    }
+    .card:hover input[type="email"],
+    .card:hover input[type="password"]{
+        border-bottom: 1px solid rgb(23, 220, 235);
+    }
+    .card:hover label{
+        color: rgb(23,220,235);
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    input[type="submit"]{
+        margin-bottom: 3%;
+    }
+    input[type="submit"]:hover,
+    .btn4-b:hover{
+        background: linear-gradient(rgb(145, 200, 214), rgb(23, 220, 235));
+        color:rgba(1,4,51,0.918);
+        font-weight: bold;
+    }
+    .form-login{
+        position:absolute;
+        width:50vw;
+        top:20%;
+        height: 30%;;
+        bottom:0;
+        left:0;
+        right: 0;
+        margin:0 auto;
+    
+      
+    }
+    .contenedor-principal .pass-olvidada{
+        padding:0.75rem;
+        width:50vw;
+        margin-left:18.5%;
+        
+    }
+    .fix-registro{
+        height: 100vh;;
+    }
+    
+
+}
+
+@media screen and (min-width:1200px){
+    .card{
+        height:40vh;
+    }
+}
+
+.fix-registro{
+    height:100vh;
+}
+
+.bg-darkblue{
+    background:rgba(1,4,51)
+}
