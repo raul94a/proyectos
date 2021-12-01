@@ -24,10 +24,10 @@ public class Comunicaciones {
     public static Boolean enviaMail(String destino, String asunto, String mensaje){
         boolean resultado;
         
-        String emisor = "dam6@carlosprofe.es";
-        String username = "dam6@carlosprofe.es";
-        String password = "Olivo.2021";
-        String host = "SSL0.OVH.NET";
+        String emisor = "YOUR_SENDING_EMAIL";
+        String username = "YOUR_SENDING_EMAIL";
+        String password = "YOUR_PASSWORD";
+        String host = "PUT_YOUR_HOST_HERE";
         Properties props = new Properties();
         props.put("mail.smtp.auth", "true");
         props.put("mail.smtp.starttls.enable", "false");
@@ -111,7 +111,7 @@ public class Comunicaciones {
         mensaje = mensaje.replace(" ","%20").replace("\n",
                 "%0A").replace("─", "-").replace(":", "");
         String direccion;
-        String fijo = "https://api.telegram.org/bot1593922190:AAHMZJ9OHySkpFcr1L3zLI9RJXnTxftTq5E/sendMessage?chat_id=730782451&text=";
+        String fijo = "YOUR TELEGRAM API URL";
         direccion = fijo + mensaje;
         URL url;
         boolean dev = false;
